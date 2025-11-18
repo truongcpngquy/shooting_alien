@@ -14,7 +14,7 @@ class Ship(Sprite):
 
         # Load the ship image and get its rect.
         # Make sure 'ship.bmp' is in the 'images' folder
-        self.image = pygame.image.load('images/ship.png').convert_alpha()
+        self.image = pygame.image.load('images/ship.bmp').convert_alpha()
         self.image = pygame.transform.scale(self.image, (60, 60))
         self.rect = self.image.get_rect()
 

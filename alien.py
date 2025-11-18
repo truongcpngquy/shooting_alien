@@ -13,7 +13,7 @@ class Alien(Sprite):
 
         # Load the alien image and set its rect attribute.
         # Make sure 'alien.bmp' is in the 'images' folder
-        self.image = pygame.image.load('images/alien.png').convert_alpha()
+        self.image = pygame.image.load('images/alien.bmp').convert_alpha()
         self.image = pygame.transform.scale(self.image, (60, 60))
         self.rect = self.image.get_rect()
 
